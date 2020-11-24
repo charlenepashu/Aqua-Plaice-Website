@@ -1,0 +1,186 @@
+/* Extra Bold=800 Classic=600 Montserrat=400 Extra-Light=200 */
+
+/* MENU BAR */
+
+
+a:link, a:visited {
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #00af9a;
+    text-decoration: underline;
+}
+
+
+.menubar {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-right: 40px;
+    padding-left: 40px;
+
+
+}
+
+
+
+
+/* LOGO ICON */
+
+#logo {
+    margin-right: 100%;
+}
+
+
+
+
+
+/* FOOTER */
+.footer {
+    background: #72cfb0;
+    color: black;
+    height: 120px;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    bottom: 0px;
+    /* text-align: left; */
+    left: 0px;
+    right: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 8px;
+}
+
+
+.footer-section-contact {
+    font-weight: 800;
+}
+
+.footer-section-body {
+    font-weight: 600;
+}
+
+
+
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+  }
+
+
+
+
+/* BUTTON */
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 16px;
+    padding-right: 56px;
+    padding-left: 56px;
+    background: white;
+    border: solid #53b494;
+}
+
+button {
+    transition-duration: 0.4s;
+  }
+
+button:hover, button:active, button:focus {
+    background-color: #53b494;
+    color: white;
+    font-weight: 600;
+    outline: none;
+}
+
+
+/* MAIN HOMEPAGE */
+
+.homepage {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
+
+#homepagetitle {
+    font-weight: 200;
+    font-size: 85px;
+
+}
+
+#homepagebutton {
+    margin: 50px;
+}
+
+
+
+/* CONTACT US */
+
+.contactus {
+    display: flex;
+    padding-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600px; 
+    font-size: 18px;
+
+}
+
+#contactus-mayfair {
+    margin-left: 35%;
+}
+
+
+.contactus-headings {
+    font-weight: 800;
+}
+
+
+#contactustitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 57px;
+    padding-left: 30px;
+}
+
+#contactusbutton {
+    position: absolute;
+    bottom: 220px;
+    right: 40px;
+    background-color: #53b494;
+    color: white;
+    font-weight: 600;
+    outline: none;
+    font-size: 10px;
+    padding: 12px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+
+/* COUR STORY */
+
+.ourstory {
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600px; 
+    font-size: 18px;
+
+}
+
+#ourstory-text {
+    margin-left: 60px;
+    padding-right: 60px;
+}
